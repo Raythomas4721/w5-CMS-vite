@@ -1,0 +1,57 @@
+header {
+  width: 296px;
+  height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  background-color: #F8F9FA;
+}
+.header-nav {
+  > a {
+    padding-bottom: 32px;
+    margin-left: 32px;
+    h1 img {
+      width: 150px;
+      height: auto;
+    }
+  }
+  ul li {
+    padding-left: 28px;
+    border-left: 4px solid transparent;
+    &:hover {
+      border-left: 4px solid var(--bg-main-color);
+    }
+    a {
+      display: flex;
+      align-items: center;
+      padding: 12px 0;
+      font-weight: bold;
+      &:hover {
+        color: var(--bg-main-color);
+      }
+      span {
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+.current-user {
+  margin-left: 32px;
+  .user-photo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  .user-data {
+    margin-right: 80px;
+    margin-left: 16px;
+    a {
+        font-weight: bold;
+    }
+    span {
+      font-size: 14px;
+      color: var(--secondary-color);
+    }
+  }
+}

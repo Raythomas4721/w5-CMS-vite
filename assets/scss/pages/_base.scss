@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", "ROBOTO MONO", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+a:hover {
+  color: var(--bg-main-color);
+}
+ol,
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+code {
+  font-size: 14px;
+  color: var(--bg-main-color);
+}
+// custom
+.fs-12 {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+.fs-14 {
+  font-size: 14px;
+}
