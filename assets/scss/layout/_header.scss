@@ -6,6 +6,7 @@ header {
   background-color: #F8F9FA;
 }
 .header-nav {
+  flex-grow: 1;
   > a {
     padding-bottom: 32px;
     margin-left: 32px;

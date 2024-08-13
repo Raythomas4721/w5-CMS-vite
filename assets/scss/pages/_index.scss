@@ -1,9 +1,11 @@
 .container-fluid {
   max-width: 1280px;
-  height: 100vh;
   padding-left: 32px;
   padding-right: 32px;
+  height: 100vh;
+  overflow: auto;
 }
+
 // function-nav
 .function-nav {
   padding-top: 32px;
@@ -42,6 +44,8 @@
 // list-container
 .list-container {
   border: 1px solid var(--secondary-color);
+  height: 70vh;
+  overflow: auto;
 }
 .list-title-part {
     background-color: #F8F9FA;
